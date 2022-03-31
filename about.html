@@ -3,5 +3,14 @@ layout: page
 title: About
 permalink: /about
 ---
+<h1>Authors</h1>
 
-This is about me!
+<ul>
+  {% for about in site.about %}
+    <li>
+      <h2><a href="{{ about.url }}">{{ about.name }}</a></h2>
+      <h3>{{ about.position }}</h3>
+      <p>{{ about.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
