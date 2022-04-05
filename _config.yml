@@ -54,5 +54,5 @@ sass:
 #   - vendor/gems/
 #   - vendor/ruby/
 collections:
-authors:
-output : true
+ authors:
+  output : true
