@@ -3,7 +3,7 @@ layout: default
 title: About
 ---
 <h1>About US</h1>
-
+{% for auther in site.authors %}
 <ul>
   {% for about in site.about %}
     <li>
@@ -34,3 +34,4 @@ function myFunction() {
 onclick="document.getElementById('demo').innerHTML = Date()"> Date and Time.</button>
 <p id="demo"></p>
 </footer>
+{% endfor %}
