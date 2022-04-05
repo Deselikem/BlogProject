@@ -58,16 +58,16 @@ authors:
 output : true
 defaults:
 - scope:
-path: ""
-type:"authors"
+path: " "
+type : "authors"
 values:
-layout:"author"
+layout :"author"
+- scope:
+path: " "
+type :"posts"
+values:
+layout :"post"
 - scope:
 path: ""
-type:"posts"
 values:
-layout:"post"
-- scope:
-path: ""
-values:
-layout:"post"
+layout:"default"
